@@ -1,0 +1,29 @@
+<div class="link-wrapper">
+    <style scoped>
+      ul.link a {
+        color:var(--clr-h1-and-bold);
+        text-decoration:none;
+      }
+
+      ul.link a:hover, a:focus {
+        color: var(--clr-a-text-hvr);
+      }
+    </style>
+
+    <h3 class="sidebar-h2">Navigation:</h3>
+    <nav>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}" {% if page.url == item.link %}style="color: black;"{% endif %}>
+      {{ item.name }}
+    </a></li>
+  {% endfor %}
+  </nav>
+  <br>
+  <h3 class="sidebar-h3">Links:</h3>
+  <ul class="link">
+      {%- for platform in site.sidebar %}
+      <!-- <li><a href="{{ platform.link }}"><i class="{{ platform.icon }}"></i> {{ platform.name }}</a></li> -->
+       <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
+      {%- endfor %}
+    </ul>
+ </div>

@@ -1,0 +1,40 @@
+title: HighPT
+logo: /assets/img/HighPT.png
+description: A Tool for high-$p_T$ Drell-Yan Tails Beyond the Standard Model.
+show_downloads: false
+google_analytics: false
+color-scheme: auto
+blank_title: true
+favicon: true
+markdown: kramdown
+kramdown:
+  math_engine: katex
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
+sidebar:
+  - name: GitHub repository
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/HighPT/HighPT
+  - name: Releases
+    icon: <i class="fa-solid fa-file-code"></i>
+    link: https://github.com/HighPT/HighPT/releases
+  - name: Issues and questions
+    icon: <i class="fa-solid fa-circle-question"></i>
+    link: https://github.com/HighPT/HighPT/issues
+  - name: References
+    icon: <i class="fa-solid fa-book"></i>
+    link: https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202207.10756%20or%202207.10714
+  - name: Website source
+    icon: <i class="fa-solid fa-file-lines"></i>
+    link: https://github.com/HighPT/HighPT.github.io
+
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+# When running locally, we run into the following error —
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# adding this avoids it
+github: [metadata]

@@ -1,0 +1,12 @@
+- name: HighPT
+  link: ./index.html
+- name: Installation
+  link: ./installation.html
+- name: Documentation
+  link: ./documentation.html
+- name: Experimental searches
+  link: ./searches.html
+- name: Mediators
+  link: ./mediators.html
+- name: About
+  link: ./about.html
