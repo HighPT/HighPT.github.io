@@ -29,12 +29,15 @@ If you use `HighPT` please cite:
 
 * L. Allwicher, D. A. Faroughy, F. Jaffredo, O. Sumensari, and F. Wilsch, *Drell-Yan Tails Beyond the Standard Model*, [\[arXiv:2207.10714\]](http://arxiv.org/abs/2207.10714).
 
+[[INSPIRE HEP]]({{site.sidebar[3].link}})
+
+
 ### LaTeX
 
 ```latex
 \cite{Allwicher:2022mcg,Allwicher:2022gkm}
 ```
-**BibTeX**
+### BibTeX
 ```
 @article{Allwicher:2022mcg,
     author = "Allwicher, Lukas and Faroughy, Darius. A. and Jaffredo, Florentin and Sumensari, Olcyr and Wilsch, Felix",
