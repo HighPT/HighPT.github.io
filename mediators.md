@@ -9,6 +9,8 @@ The currently implemented mediators comprise all leptoquarks. The available medi
 
 ### The currently available mediators and their masses:
 
+<div class="table-wrapper" markdown="block">
+
 | Mediator | `HighPT` label | Quantum numbers | 1&nbsp;TeV | 2&nbsp;TeV | 3&nbsp;TeV | 4&nbsp;TeV | 5&nbsp;TeV |
 | -------- | -------------- | --------------- | ----- | ----- | ----- | ----- | ----- |
 | $S_1$ | `"S1"` | $(\boldsymbol{\bar{3}},\boldsymbol{1},1/3)$ | ✓ | ✓ | ✓ | soon | soon |
@@ -21,3 +23,5 @@ The currently implemented mediators comprise all leptoquarks. The available medi
 | $\tilde{V}_2$ | `"V2t"` | $(\boldsymbol{\bar{3}},\boldsymbol{2},-1/6)$ | ✓ | ✓ | ✓ | soon | soon |
 | $S_3$ | `"S3"` | $(\boldsymbol{\bar{3}},\boldsymbol{3},1/3)$ | ✓ | ✓ | ✓ | soon | soon |
 | $U_3$ | `"U3"` | $(\boldsymbol{3},\boldsymbol{3},2/3)$ | ✓ | ✓ | ✓ | soon | soon |
+
+</div>
