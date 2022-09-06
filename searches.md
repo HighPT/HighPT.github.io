@@ -9,6 +9,8 @@ The experimental searches available in `HighPT` are based on the full LHC run-II
 
 ### The currently available searches are:
 
+<div class="table-wrapper" markdown="block">
+
 | Process | `HighPT` label | Experiment | Reference |
 | ------- | ------------ | ---------- | --------- |
 | ${pp\to\tau^+\tau^-}$ |  `"di-tau-ATLAS"` | ATLAS | [\[2002.12223\]](http://arxiv.org/abs/2002.12223) |
@@ -20,3 +22,5 @@ The experimental searches available in `HighPT` are based on the full LHC run-II
 | ${pp\to\tau^\pm\mu^\mp}$ | `"muon-tau-CMS"` | CMS | [\[2205.06709\]](http://arxiv.org/abs/2205.06709) |
 | ${pp\to\tau^\pm e^\mp}$ | `"electron-tau-CMS"` | CMS | [\[2205.06709\]](http://arxiv.org/abs/2205.06709) |
 | ${pp\to e^\pm\mu^\mp}$ | `"electron-muon-CMS"` | CMS | [\[2205.06709\]](http://arxiv.org/abs/2205.06709) |
+
+</div>
