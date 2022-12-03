@@ -4,6 +4,8 @@
   link: ./installation.html
 - name: Documentation
   link: ./documentation.html
+- name: Tutorials
+  link: ./tutorials.html
 - name: Experimental searches
   link: ./searches.html
 - name: Mediators
